@@ -23,6 +23,7 @@
   "encoding": {
     "color": {
       "field": "value",
+      "scale": {"range": ["purple", "lightpink", "darkpink", "lightgrey", "grey", "blue", "grey"]},
       "type": "quantitative",
       "title": "CO2 Emissions (tons)"
     }
