@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ 
+  "title": {"text": "GDP Per Capita"},
+ 
+  "width": 500,
+  "height": 200,
+   
+  "data": {
+    "values": [
+        {"Country": "China","GDP per capita": 21482},
+        {"Country": "DR Congo.","GDP per capita": 1337},
+        {"Country": "India","GDP per capita": 8400},
+        {"Country": "Nigeria","GDP per capita": 5862},
+        {"Country": "Indonesia","GDP per capita": 4332}]
+  },
+ 
+  "mark": {
+    "type": "bar",
+    "color": "green"},
+ 
+  "encoding": {
+    "x": {"field": "Country"},  
+ 
+    "y": {
+      "field": "GDP per capita",
+      "type": "quantitative"}}
+}
