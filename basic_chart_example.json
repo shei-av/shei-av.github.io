@@ -6,7 +6,8 @@
   },
   "mark": {
     "type": "bar",
-    "color": "pink"},
+    "color": "#9e087e"
+  },
   "encoding": {
     "y": {"field": "Country", "type": "nominal", "sort":"-x", "title":null},
     "x": {"field": "HDI", "type": "quantitative"}
